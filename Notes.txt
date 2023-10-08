@@ -1,0 +1,5 @@
+<button> create a button </button>
+
+creating a link to another website
+<a href="https://www.netflix.com/browse" target="_blank">Netflix</a>
+target- open the link in another tab or desired tab

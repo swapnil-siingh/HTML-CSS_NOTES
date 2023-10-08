@@ -1,0 +1,95 @@
+<style>
+    .sub-button {
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(182, 9, 9);
+        height: 36px;
+        width: 106px;
+        /* if size of button is not specified it tkae the size which fits the elements inside the button */
+        border-radius: 2px;
+        cursor: pointer;/*changes in cursor  */
+        transition: opacity 2s;
+        padding: 10px;
+        /* padding is used for spacing inside the button  */
+        vertical-align: center;
+    
+    }
+    .sub-button:hover {
+        background-color: red;
+        /* Opacity can also be used for the same */
+        font-size: 50;
+        height: 60;
+        width: 310;
+        margin-right: 80;
+        
+    }
+    .sub-button:active {
+        background-color: rgb(249, 171, 171);
+    }
+    .join-button{
+        border-color: rgb(0, 145, 255);
+        background-color: white;
+        color: rgb(2, 120, 210);
+        height: 36px;
+        width: 70px;
+        border-radius: 2px;
+        border-style: solid;
+        cursor: pointer;
+        margin-left: 10;
+        transition: opacity 2s;
+        .join-link{
+        text-decoration: none;
+        color:rgb(2, 120, 210)
+    }
+    
+    }
+    .join-button:hover{
+        color: white;
+        background-color: rgb(2, 120, 210);
+        .join-link{
+        text-decoration: none;
+        color: white;
+    }
+        
+    }
+    .join-link{
+        text-decoration: none;
+    }
+
+    .tweet-button {
+        border: none;
+        background-color: rgb(76, 152, 250);
+        color: white;
+        height: 36px;
+        border-radius: 18px;
+        width: 80;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 10;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 1.2)/*takes values as Horizintal vertical blur 
+         rgba(a- alpha to get dark shade of any color for shadow)*/
+        
+
+        
+    }
+    .sub-link{
+        text-decoration: none;
+        color: white;
+
+    }
+    
+    .join-link:hover{
+        text-decoration: none;
+        /* color: rgb(2, 120, 210); */
+        color: white;
+        transition: 4s;
+
+    }
+
+</style>
+<button class="sub-button"><a class="sub-link" href="https://www.youtube.com/" target="_blank" >SUBSCRIBE</a>
+</button >
+<button class="join-button"><a class="join-link" href="https://www.youtube.com/" target="_blank" >JOIN</a>
+</button>
+<button class="tweet-button"><a class="tweet-link" href="https://www.youtube.com/" target="_blank" >TWEET</a>
+</button>

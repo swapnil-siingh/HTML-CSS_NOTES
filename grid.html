@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divsty{
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            /* 1fr=freespace it will take it is like ratio */
+            background-color: rgb(255, 255, 255);
+            column-gap: 10px;
+            row-gap: 10px;
+            grid-template-rows: 100px 1fr 2fr;
+            .d2{
+                background-color: rgb(125, 233, 233);
+                margin-top: 10px;
+            }
+            .d3{
+                background-color: lightcoral;
+                margin-top: 10px;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="divsty">
+        <div class="d2">div 1</div>
+        <div class="d3">div 2</div>
+        <div class="d2">div 1</div>
+        <div class="d3">div 2</div>
+    </div>
+</body>
+</html>

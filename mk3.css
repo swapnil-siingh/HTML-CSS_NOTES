@@ -1,0 +1,82 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* applies on all the content on page */
+    /* more specific selectors get higher proprity
+    eg. .video-title >> p */
+}
+
+.video-title{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0;     
+}
+.video-stats{
+    font-family: arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 5;
+
+}
+.video-author{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    line-height: 60px;
+    
+}
+.video-des{
+    margin-top: 0px;
+    width: 300px;
+}
+.link-down{
+    text-align: justify;
+    margin-top: 112px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    .shop:hover{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+        
+
+
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .link:hover{
+        color: blue;
+    }
+}
+
+
+.t1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    .usd{
+        font-size: 20px;
+        color: grey;
+
+    }
+}
+.t2{
+    font-size: 16px;
+    line-height: 30px;
+    color: green;
+    opacity: 0.9;
+    
+}
